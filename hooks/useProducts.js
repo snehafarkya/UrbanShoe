@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import { ref, onValue, off } from 'firebase/database';
 import { database } from '@/lib/firebase';
@@ -15,42 +16,46 @@ export function useProducts() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    try {
-      const productsRef = ref(database, 'products');
+   useEffect(() => {
+    // 🚨 Prevent execution during SSR
+    if (typeof window === 'undefined' || !database) {
+      return;
+    }
 
-      // Set up real-time listener
-      const unsubscribe = onValue(
-        productsRef,
-        (snapshot) => {
-          if (snapshot.exists()) {
-            const data = snapshot.val();
-            // Convert Firebase object to array
-            const productsList = Object.entries(data).map(([id, product]) => ({
+    const productsRef = ref(database, 'products');
+
+    const unsubscribe = onValue(
+      productsRef,
+      (snapshot) => {
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+
+          const productsList = Object.entries(data).map(
+            ([id, product]) => ({
               id,
               ...product,
-            }));
-            setProducts(productsList);
-            setError(null);
-          } else {
-            setProducts([]);
-          }
-          setLoading(false);
-        },
-        (err) => {
-          console.error('[v0] Firebase error loading products:', err);
-          setError('Failed to load products. Please refresh.');
-          setLoading(false);
-        }
-      );
+            })
+          );
 
-      // Cleanup listener on unmount
-      return () => off(productsRef);
-    } catch (err) {
-      console.error('[v0] Error setting up product listener:', err);
-      setError('Failed to load products.');
-      setLoading(false);
-    }
+          setProducts(productsList);
+          setError(null);
+        } else {
+          setProducts([]);
+        }
+
+        setLoading(false);
+      },
+      (err) => {
+        console.error('Firebase error loading products:', err);
+        setError('Failed to load products. Please refresh.');
+        setLoading(false);
+      }
+    );
+
+    // ✅ Proper cleanup
+    return () => {
+      off(productsRef);
+    };
   }, []);
 
   return { products, loading, error };

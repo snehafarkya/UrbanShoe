@@ -7,8 +7,8 @@ const geist = Geist({ subsets: ["latin"], variable: '--font-sans' });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'Prime Flow - Modern E-Commerce',
-  description: 'Experience real-time shopping with live product drops, instant stock updates, and seamless checkout powered by Stripe',
+  title: 'Urban Shoes',
+  description: 'Experience real-time shopping with live product drops, instant stock updates, and a seamless checkout process.',
   keywords: ['ecommerce', 'shopping', 'real-time', 'products', 'checkout'],
   generator: 'Next.js',
   creator: 'Frontend Developer',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://prime-flow.vercel.app',
-    title: 'Prime Flow - Modern E-Commerce',
+    url: 'https://urban-shoe-store.vercel.app',
+    title: 'Urban Shoes - Modern E-Commerce',
     description: 'Experience real-time shopping with live product drops and instant stock updates',
   },
 }
