@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   creator: 'Frontend Developer',
   icons: {
-    icon: '/icon.svg',
-    apple: '/apple-icon.png',
+    icon: '/icon.jpg',
+    apple: '/icon.jpg',
   },
   openGraph: {
     type: 'website',

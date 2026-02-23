@@ -86,7 +86,7 @@ export default function ShopPage() {
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
               <ShoppingBag className="w-6 h-6 text-accent-foreground" />
             </div>
-            <h1 className="text-2xl font-bold text-foreground">U Shoes</h1>
+            <h1 className="text-2xl font-bold text-foreground">Urban Shoes</h1>
           </Link>
         </div>
       </header>
