@@ -29,7 +29,7 @@ export default function LoginPage() {
     clearError();
     try {
       await signInWithEmailAndPassword(auth, email.trim(), password);
-      router.push("/");
+      router.push("/checkout");
     } catch (e: any) {
       setError(friendlyError(e.code));
     } finally {
@@ -44,7 +44,7 @@ export default function LoginPage() {
     clearError();
     try {
       await createUserWithEmailAndPassword(auth, email.trim(), password);
-      router.push("/");
+      router.push("/checkout");
     } catch (e: any) {
       setError(friendlyError(e.code));
     } finally {
@@ -58,7 +58,7 @@ export default function LoginPage() {
     try {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
-      router.push("/");
+      router.push("/checkout");
     } catch (e: any) {
       setError(friendlyError(e.code));
     } finally {
