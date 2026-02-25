@@ -95,11 +95,11 @@ export function ProductCard({ product }) {
 
           <div className="flex items-center justify-between mb-4">
             <div className="text-xl font-bold text-accent">
-              ${product.price?.toFixed(2)}
+             &#8377;{product.price?.toFixed(2)}
             </div>
             {product.originalPrice && product.originalPrice > product.price && (
               <div className="text-xs text-muted-foreground line-through">
-                ${product.originalPrice?.toFixed(2)}
+                &#8377;{product.originalPrice?.toFixed(2)}
               </div>
             )}
           </div>

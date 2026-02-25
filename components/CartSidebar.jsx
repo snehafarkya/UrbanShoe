@@ -98,7 +98,7 @@ export function CartSidebar() {
                         {item.name}
                       </h3>
                       <p className="text-accent font-bold text-sm mb-3">
-                        ${(item.price * item.quantity).toFixed(2)}
+                        &#8377;{(item.price * item.quantity).toFixed(2)}
                       </p>
 
                       {/* Quantity Controls */}
@@ -143,7 +143,7 @@ export function CartSidebar() {
               <div className="flex items-center justify-between">
                 <span className="text-muted-foreground">Subtotal</span>
                 <span className="text-xl font-bold text-accent">
-                  ${total.toFixed(2)}
+                  &#8377;{total.toFixed(2)}
                 </span>
               </div>
               <p className="text-xs text-muted-foreground">

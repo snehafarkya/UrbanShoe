@@ -34,7 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
-, "components/checkout/OrderSummary.jsx"  ],
+, "components/checkout/OrderSummary.jsx", "components/AuthButton.jsx"  ],
   "exclude": [
     "node_modules"
   ]

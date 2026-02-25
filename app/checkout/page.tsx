@@ -1,27 +1,37 @@
 'use client';
 
-import { useCartStore } from '@/lib/store/cartStore';
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
-import { CheckoutForm } from '@/components/checkout/CheckoutForm';
 import { OrderSummary } from '@/components/checkout/OrderSummary';
+import { CheckoutForm } from '@/components/checkout/CheckoutForm';
+import { useCartStore } from '@/lib/store/cartStore';
+import { useAuth } from "@/context/AuthContext";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function CheckoutPage() {
-  const { items } = useCartStore();
-  const router = useRouter();
+  const { getTotal } = useCartStore();
+const { user, loading } = useAuth();
+const router = useRouter();
 
-  useEffect(() => {
-    if (items.length === 0) {
-      router.push('/');
-    }
-  }, [items, router]);
+useEffect(() => {
+  if (!loading && !user) {
+    router.push("/login");
+  }
+}, [user, loading]);
+
+  const subtotal = getTotal();
+  const shipping = subtotal > 2000 ? 0 : 99;
+  const tax = subtotal * 0.08;
+  const total = subtotal + shipping + tax;
 
   return (
-    <div className="min-h-screen bg-background bg-dot-pattern">
-      <div className="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12">
-        <CheckoutForm />
-        <OrderSummary />
-      </div>
+    <div className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10">
+      <CheckoutForm total={total} />
+      <OrderSummary
+        subtotal={subtotal}
+        shipping={shipping}
+        tax={tax}
+        total={total}
+      />
     </div>
   );
 }

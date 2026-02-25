@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Shoe, Award, Truck, Shield, ShoppingBag } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import hero from './hero.png';
+import { AuthButton } from '@/components/AuthButton';
 /**
  * Landing Page - Premium Shoes Store
  * Showcases the store with CTA to shop
@@ -32,11 +32,14 @@ export default function HomePage() {
             <h1 className="text-2xl font-bold text-foreground">
               Urban Shoes</h1>
           </div>
+          <div className=" flex gap-4 items-center">
           <Link href="/shop" className='cursor-pointer'>
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
               Shop Now
             </Button>
           </Link>
+          <AuthButton />
+          </div>
         </div>
       </nav>
 

@@ -1,304 +1,33 @@
 {
   "products": {
-    "shoe-001": {
-      "id": "shoe-001",
-      "name": "Nike Air Max 90",
-      "price": 129.99,
-      "originalPrice": 159.99,
-      "description": "Classic Air Max cushioning with durable design",
-      "category": "Running",
-      "stock": 15,
-      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop"
-    },
-    "shoe-002": {
-      "id": "shoe-002",
-      "name": "Adidas Ultraboost 22",
-      "price": 189.99,
-      "originalPrice": 220.00,
-      "description": "Responsive boost cushioning for everyday performance",
-      "category": "Running",
-      "stock": 8,
-      "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop"
-    },
-    "shoe-003": {
-      "id": "shoe-003",
-      "name": "Puma RS-X Bold",
-      "price": 99.99,
-      "originalPrice": 120.00,
-      "description": "Retro-inspired street sneaker with bold design",
-      "category": "Casual",
-      "stock": 20,
-      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&h=500&fit=crop"
-    },
-    "shoe-004": {
-      "id": "shoe-004",
-      "name": "New Balance 990v6",
-      "price": 184.99,
-      "originalPrice": 185.00,
-      "description": "Premium craftsmanship with modern comfort",
-      "category": "Lifestyle",
-      "stock": 5,
-      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop"
-    },
-    "shoe-005": {
-      "id": "shoe-005",
-      "name": "Air Jordan 1 Retro",
-      "price": 170.00,
-      "originalPrice": 170.00,
-      "description": "The iconic basketball sneaker reimagined",
-      "category": "Basketball",
-      "stock": 3,
-      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop"
-    },
-    "shoe-006": {
-      "id": "shoe-006",
-      "name": "Salomon XT-6",
-      "price": 159.95,
-      "originalPrice": 180.00,
-      "description": "Trail-ready stability and grip",
-      "category": "Trail",
-      "stock": 12,
-      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop"
-    },
-    "shoe-007": {
-      "id": "shoe-007",
-      "name": "Nike Dunk Low",
-      "price": 115.00,
-      "originalPrice": 130.00,
-      "description": "Streetwear essential with classic silhouette",
-      "category": "Lifestyle",
-      "stock": 10,
-      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop"
-    },
-    "shoe-008": {
-      "id": "shoe-008",
-      "name": "Reebok Club C 85",
-      "price": 75.00,
-      "originalPrice": 90.00,
-      "description": "Minimalist tennis-inspired sneaker",
-      "category": "Casual",
-      "stock": 18,
-      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop"
-    },
-    "shoe-009": {
-      "id": "shoe-009",
-      "name": "Converse Chuck 70",
-      "price": 85.00,
-      "originalPrice": 95.00,
-      "description": "Premium canvas high-top sneaker",
-      "category": "Casual",
-      "stock": 25,
-      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&h=500&fit=crop"
-    },
-    "shoe-010": {
-      "id": "shoe-010",
-      "name": "Vans Old Skool",
-      "price": 70.00,
-      "originalPrice": 80.00,
-      "description": "Skate classic with iconic side stripe",
-      "category": "Skate",
-      "stock": 30,
-      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop"
-    },
-    "shoe-011": {
-      "id": "shoe-011",
-      "name": "Asics Gel-Kayano 29",
-      "price": 160.00,
-      "originalPrice": 180.00,
-      "description": "Stability running shoe with gel cushioning",
-      "category": "Running",
-      "stock": 9,
-      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop"
-    },
-    "shoe-012": {
-      "id": "shoe-012",
-      "name": "Nike Blazer Mid 77",
-      "price": 105.00,
-      "originalPrice": 120.00,
-      "description": "Vintage basketball style sneaker",
-      "category": "Lifestyle",
-      "stock": 14,
-      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop"
-    },
-    "shoe-013": {
-      "id": "shoe-013",
-      "name": "Adidas Forum Low",
-      "price": 100.00,
-      "originalPrice": 120.00,
-      "description": "Retro court sneaker for everyday wear",
-      "category": "Basketball",
-      "stock": 7,
-      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop"
-    },
-    "shoe-014": {
-      "id": "shoe-014",
-      "name": "Hoka Clifton 9",
-      "price": 145.00,
-      "originalPrice": 160.00,
-      "description": "Lightweight cushioned road runner",
-      "category": "Running",
-      "stock": 16,
-      "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop"
-    },
-    "shoe-015": {
-      "id": "shoe-015",
-      "name": "Nike Pegasus Trail 4",
-      "price": 140.00,
-      "originalPrice": 155.00,
-      "description": "All-terrain running performance",
-      "category": "Trail",
-      "stock": 11,
-      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop"
-    },
-    "shoe-016": {
-      "id": "shoe-016",
-      "name": "Puma Suede Classic",
-      "price": 80.00,
-      "originalPrice": 95.00,
-      "description": "Timeless street classic",
-      "category": "Casual",
-      "stock": 19,
-      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&h=500&fit=crop"
-    },
-    "shoe-017": {
-      "id": "shoe-017",
-      "name": "Nike Air Force 1",
-      "price": 110.00,
-      "originalPrice": 125.00,
-      "description": "Iconic basketball silhouette",
-      "category": "Lifestyle",
-      "stock": 21,
-      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop"
-    },
-    "shoe-018": {
-      "id": "shoe-018",
-      "name": "Under Armour HOVR Phantom",
-      "price": 135.00,
-      "originalPrice": 150.00,
-      "description": "Energy-return running technology",
-      "category": "Running",
-      "stock": 6,
-      "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop"
-    },
-    "shoe-019": {
-      "id": "shoe-019",
-      "name": "On Cloud 5",
-      "price": 129.00,
-      "originalPrice": 149.00,
-      "description": "Swiss engineered lightweight sneaker",
-      "category": "Lifestyle",
-      "stock": 13,
-      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop"
-    },
-    "shoe-020": {
-      "id": "shoe-020",
-      "name": "Jordan Luka 2",
-      "price": 130.00,
-      "originalPrice": 150.00,
-      "description": "Signature basketball performance shoe",
-      "category": "Basketball",
-      "stock": 4,
-      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop"
-    },
-    "shoe-021": {
-      "id": "shoe-021",
-      "name": "Nike React Infinity Run",
-      "price": 160.00,
-      "originalPrice": 180.00,
-      "description": "Smooth responsive ride",
-      "category": "Running",
-      "stock": 9,
-      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop"
-    },
-    "shoe-022": {
-      "id": "shoe-022",
-      "name": "Adidas Samba OG",
-      "price": 95.00,
-      "originalPrice": 110.00,
-      "description": "Indoor soccer classic turned street icon",
-      "category": "Lifestyle",
-      "stock": 24,
-      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&h=500&fit=crop"
-    },
-    "shoe-023": {
-      "id": "shoe-023",
-      "name": "Reebok Nano X3",
-      "price": 140.00,
-      "originalPrice": 155.00,
-      "description": "Versatile training sneaker",
-      "category": "Training",
-      "stock": 10,
-      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop"
-    },
-    "shoe-024": {
-      "id": "shoe-024",
-      "name": "Nike ZoomX Vaporfly",
-      "price": 250.00,
-      "originalPrice": 275.00,
-      "description": "Elite racing performance",
-      "category": "Running",
-      "stock": 2,
-      "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop"
-    },
-    "shoe-025": {
-      "id": "shoe-025",
-      "name": "Adidas NMD R1",
-      "price": 130.00,
-      "originalPrice": 150.00,
-      "description": "Urban tech-inspired design",
-      "category": "Lifestyle",
-      "stock": 14,
-      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop"
-    },
-    "shoe-026": {
-      "id": "shoe-026",
-      "name": "Puma Future Rider",
-      "price": 85.00,
-      "originalPrice": 100.00,
-      "description": "Retro runner with bold colorways",
-      "category": "Casual",
-      "stock": 18,
-      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop"
-    },
-    "shoe-027": {
-      "id": "shoe-027",
-      "name": "New Balance 574 Core",
-      "price": 90.00,
-      "originalPrice": 110.00,
-      "description": "Everyday comfort classic",
-      "category": "Lifestyle",
-      "stock": 20,
-      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop"
-    },
-    "shoe-028": {
-      "id": "shoe-028",
-      "name": "Nike Metcon 9",
-      "price": 140.00,
-      "originalPrice": 160.00,
-      "description": "High-performance training shoe",
-      "category": "Training",
-      "stock": 8,
-      "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop"
-    },
-    "shoe-029": {
-      "id": "shoe-029",
-      "name": "Adidas Harden Vol. 7",
-      "price": 160.00,
-      "originalPrice": 180.00,
-      "description": "Signature basketball innovation",
-      "category": "Basketball",
-      "stock": 6,
-      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop"
-    },
-    "shoe-030": {
-      "id": "shoe-030",
-      "name": "Salomon Speedcross 6",
-      "price": 130.00,
-      "originalPrice": 150.00,
-      "description": "Aggressive grip trail running shoe",
-      "category": "Trail",
-      "stock": 12,
-      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop"
-    }
+    "shoe-001": { "id": "shoe-001", "name": "Nike Air Max 90", "price": 9499, "originalPrice": 9999, "description": "Classic Air Max cushioning with durable design", "category": "Running", "stock": 15, "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop" },
+
+    "shoe-002": { "id": "shoe-002", "name": "Adidas Ultraboost 22", "price": 9999, "originalPrice": 9999, "description": "Responsive boost cushioning for everyday performance", "category": "Running", "stock": 8, "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop" },
+
+    "shoe-003": { "id": "shoe-003", "name": "Puma RS-X Bold", "price": 7999, "originalPrice": 8999, "description": "Retro-inspired street sneaker with bold design", "category": "Casual", "stock": 20, "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&h=500&fit=crop" },
+
+    "shoe-004": { "id": "shoe-004", "name": "New Balance 990v6", "price": 9999, "originalPrice": 9999, "description": "Premium craftsmanship with modern comfort", "category": "Lifestyle", "stock": 5, "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop" },
+
+    "shoe-005": { "id": "shoe-005", "name": "Air Jordan 1 Retro", "price": 9499, "originalPrice": 9999, "description": "The iconic basketball sneaker reimagined", "category": "Basketball", "stock": 3, "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop" },
+
+    "shoe-006": { "id": "shoe-006", "name": "Salomon XT-6", "price": 8999, "originalPrice": 9999, "description": "Trail-ready stability and grip", "category": "Trail", "stock": 12, "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop" },
+
+    "shoe-007": { "id": "shoe-007", "name": "Nike Dunk Low", "price": 8999, "originalPrice": 9999, "description": "Streetwear essential with classic silhouette", "category": "Lifestyle", "stock": 10, "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop" },
+
+    "shoe-008": { "id": "shoe-008", "name": "Reebok Club C 85", "price": 6499, "originalPrice": 7999, "description": "Minimalist tennis-inspired sneaker", "category": "Casual", "stock": 18, "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop" },
+
+    "shoe-009": { "id": "shoe-009", "name": "Converse Chuck 70", "price": 6999, "originalPrice": 7999, "description": "Premium canvas high-top sneaker", "category": "Casual", "stock": 25, "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&h=500&fit=crop" },
+
+    "shoe-010": { "id": "shoe-010", "name": "Vans Old Skool", "price": 5999, "originalPrice": 6999, "description": "Skate classic with iconic side stripe", "category": "Skate", "stock": 30, "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop" },
+
+    "shoe-011": { "id": "shoe-011", "name": "Asics Gel-Kayano 29", "price": 9999, "originalPrice": 9999, "description": "Stability running shoe with gel cushioning", "category": "Running", "stock": 9, "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop" },
+
+    "shoe-012": { "id": "shoe-012", "name": "Nike Blazer Mid 77", "price": 7999, "originalPrice": 8999, "description": "Vintage basketball style sneaker", "category": "Lifestyle", "stock": 14, "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&h=500&fit=crop" },
+
+    "shoe-013": { "id": "shoe-013", "name": "Adidas Forum Low", "price": 8499, "originalPrice": 9499, "description": "Retro court sneaker for everyday wear", "category": "Basketball", "stock": 7, "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop" },
+
+    "shoe-014": { "id": "shoe-014", "name": "Hoka Clifton 9", "price": 9499, "originalPrice": 9999, "description": "Lightweight cushioned road runner", "category": "Running", "stock": 16, "image": "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=500&h=500&fit=crop" },
+
+    "shoe-015": { "id": "shoe-015", "name": "Nike Pegasus Trail 4", "price": 8999, "originalPrice": 9999, "description": "All-terrain running performance", "category": "Trail", "stock": 11, "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop" }
   }
 }
